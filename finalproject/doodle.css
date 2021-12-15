@@ -1,0 +1,238 @@
+@charset "utf-8";
+  
+body {
+  background-color: white;
+}
+
+a:visited { 
+  color: none; 
+  border: none;
+  text-decoration: none; 
+}
+a:link {
+  color: #666;
+  border: none;
+  text-decoration: none;
+  cursor: none;
+ }
+
+a:active {  
+  color: #666;
+  border: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 1150px;
+  height: 230px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+    padding-right: 5px;
+}
+
+.txthold {
+  width: 170px;
+  height: 200px;
+  margin: auto;
+  background: white;
+  padding-left: 20px;
+  float:left;
+}
+
+#G1hold {
+  width: 170px;
+  height: 200px;
+  margin-left: 40px;
+  background: white;
+  padding-left: 0px;
+  float:left;
+}
+
+#G1 {
+  position: relative;
+    height: 200px;
+    width: 120px;
+    background-image: url(gg-g1.png);
+    background-repeat: no-repeat;
+    background-size: 120px 200px;
+    cursor: pointer;
+    margin-left: 35px;
+    margin-top: 15px
+}
+
+#G1:hover{
+  position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url(teapot.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+#o1 {
+  position: relative;
+    height: 200px;
+    width: 80px;
+    background-image: url(gg-o1.png);
+    background-repeat: no-repeat;
+    background-size: 80px 200px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#o1:hover{
+  position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url(teacup.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#o2 {
+  position: relative;
+    height: 200px;
+    width: 80px;
+    background-image: url(gg-o2.png);
+    background-repeat: no-repeat;
+    background-size: 80px 200px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#o2:hover{
+  position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url(teacup.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+
+#g2 {
+  position: relative;
+    height: 200px;
+    width: 80px;
+    background-image: url(gg-g2.png);
+    background-repeat: no-repeat;
+    background-size: 80px 200px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+#g2:hover{
+  position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url(teabag.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#lhold {
+  width: 150px;
+  height: 200px;
+  margin-right: 0px;
+  background: white;
+  padding-left: 20px;
+  float:left;
+}
+
+#l {
+  position: relative;
+    height: 200px;
+    width: 30px;
+    background-image: url(gg-l.png);
+    background-repeat: no-repeat;
+    background-size: 30px 200px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+
+#l:hover{
+  position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url(spoon.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    cursor: pointer; 
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#e {
+  position: relative;
+    height: 200px;
+    width: 80px;
+    background-image: url(gg-e.png);
+    background-repeat: no-repeat;
+    background-size: 80px 200px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#e:hover{
+  position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url(teacupe.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: -15px;
+}
+
+#txtcontainer{
+  width: 1200px;
+  background-color: white;
+  margin-top: 50px;
+  padding-top: 20px;
+  margin: auto;
+  border-style: dashed;
+}
+
+#text{
+  width: 85%;
+  margin-top: 20px;
+  padding-left: 90px;
+  font-size: 20px;
+  text-align: center;
+}
+#title{
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  margin: 20px;
+  padding: 20px;
+  background-color: lavender;
+}
+
+#txt{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 20px;
+}
+
